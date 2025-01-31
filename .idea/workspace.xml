@@ -7,12 +7,20 @@
     <list default="true" id="db81726b-f416-4d95-a466-566586646c74" name="Changes" comment="home_work_fix">
       <change afterPath="$PROJECT_DIR$/src/category.py" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/product.py" afterDir="false" />
+
       <change afterPath="$PROJECT_DIR$/tests/test_product.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.Flake8" beforeDir="false" afterPath="$PROJECT_DIR$/.Flake8" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/classes.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/conftest.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tests/test_classess.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/test_category.py" afterDir="false" />
+
+      <change afterPath="$PROJECT_DIR$/tests/test_category.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/test_product.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/classes.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/test_classes.py" beforeDir="false" />
+
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,11 +37,16 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
+
         <entry key="$PROJECT_DIR$" value="feature/home_work_1" />
+
+        <entry key="$PROJECT_DIR$" value="develop" />
+
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+
   <component name="GitHubPullRequestSearchHistory">{
   &quot;lastFilter&quot;: {
     &quot;state&quot;: &quot;OPEN&quot;,
@@ -49,6 +62,23 @@
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 7
 }</component>
+
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "ZhannaAM"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/ZhannaAM/Home_work_classes.git",
+    "accountId": "640c0953-feed-4e9f-8c32-93dbaab21f7d"
+  }
+}]]></component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 7
+}]]></component>
+
   <component name="ProjectId" id="2sFlTrlL46X8BU3wI2gMmwNBfpR" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -62,7 +92,11 @@
     "Python.category.executor": "Run",
     "Python.product.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+
     "git-widget-placeholder": "feature/home__work__2"
+
+    "git-widget-placeholder": "feature/home__work__1"
+
   }
 }]]></component>
   <component name="RunManager">
@@ -114,6 +148,7 @@
     <option name="localTasksCounter" value="2" />
     <servers />
   </component>
+
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
       <map>
@@ -125,6 +160,8 @@
       </map>
     </option>
   </component>
+
+
   <component name="VcsManagerConfiguration">
     <MESSAGE value="home_work_fix" />
     <option name="LAST_COMMIT_MESSAGE" value="home_work_fix" />

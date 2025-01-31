@@ -1,3 +1,4 @@
+
 import pytest
 
 from src.product import BaseProduct, Car, LawnGrass, Product, Smartphone
@@ -130,3 +131,10 @@ def test_base_product():
 def test_raise():
     with pytest.raises(ValueError):
         product_1 = Product("cucumber", "cucumber from Azerbaijan", 100, 0)  # noqa F841
+
+def test_product(product):
+    assert product.name == "55\" QLED 4K"
+    assert product.description == "Фоновая подсветка"
+    assert product.price == 123000.0
+    assert product.quantity == 7
+

@@ -1,3 +1,4 @@
+
 from abc import ABC, abstractmethod
 
 
@@ -16,6 +17,9 @@ class BaseProduct(ABC):
 
 
 class Product(BaseProduct, MixinProduct):
+
+class Product:
+
     name: str
     description: str
     price: float
@@ -24,6 +28,7 @@ class Product(BaseProduct, MixinProduct):
     def __init__(self, name, description, price, quantity):
         self.name = name
         self.description = description
+
         self.__price = price
         self.quantity = quantity
         if self.quantity == 0:
@@ -103,3 +108,7 @@ if __name__ == "__main__":
     product_2 = Product("cucumber", "cucumber from Azerbaijan", 100, 20)
     product_2.price = 20
     print(product_2)
+
+        self.price = price
+        self.quantity = quantity
+
