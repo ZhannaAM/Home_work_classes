@@ -5,11 +5,13 @@ class Product:
         self.__price = price
         self.quantity = quantity
 
+
     @property
     def price(self):
         return self.__price
 
     @price.setter
+
     def price(self, value: int):
         if value <= 0:
             print("Цена не должна быть нулевая или отрицательная")
@@ -26,3 +28,5 @@ class Product:
 
     def __repr__(self):
         return f"Product(name='{self.name}', description='{self.description}', price={self.price}, quantity={self.quantity})"
+
+   

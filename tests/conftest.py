@@ -1,7 +1,7 @@
 import pytest
 
-from src.product import Product
-from src.category import Category
+from oop.product import Product
+from oop.category import Category
 
 
 @pytest.fixture
@@ -52,3 +52,4 @@ def category_smart(product_1, product_2, product_3):
         "Смартфоны, как средство не только коммуникации, но и получения дополнительных функций для удобства жизни",
         [product_1, product_2, product_3],
     )
+  

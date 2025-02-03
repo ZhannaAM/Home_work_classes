@@ -27,3 +27,5 @@ def test_category(category_smart, product_4):
     category_smart.add_product(product_4)
     category_smart.add_product(new_product)
     assert Category.product_count == 9
+
+
