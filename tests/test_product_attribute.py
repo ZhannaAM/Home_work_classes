@@ -1,8 +1,16 @@
+
+import pytest
+
+
+
 from src.product import Product
 
 
 some_product = Product("corn", "vegetable", 100, 10)
 one_more_product = Product("Apple","fruit", 150 , 15)
+
+
+
 
 def test_new_product():
     new_product = Product.new_product({"name": "apple", "description": "fruit", "price": 180,
@@ -21,6 +29,7 @@ def test_price_setter():
 
 def test_add():
     assert some_product + one_more_product == 3750
+
 
 def test_quantity():
     assert some_product.quantity == 10

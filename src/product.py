@@ -1,4 +1,24 @@
+
+from abc import ABC, abstractmethod
+
+
+class BaseProduct(ABC):
+     @abstractmethod
+     def __init__(self):
+         pass
+
+
+class MixinParam:
+    def __init__(self,name, description, price, quantity):
+        super().__init__(name, description, price, quantity)
+    def __repr__(self):
+        return f'Product({self.name}, {self.description}, {self.price}, {self.quantity})'
+
+
+class Product(BaseProduct, MixinParam):
+
 class Product:
+
     name: str
     description: str
     price: float
@@ -9,6 +29,14 @@ class Product:
         self.description = description
         self.__price = price
         self.quantity = quantity
+
+        super().__init__()
+        if quantity <= 0:
+            raise ValueError('Товар с нулевым количеством не может быть добавлен')
+
+
+
+
 
 
     @classmethod

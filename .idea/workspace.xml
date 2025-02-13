@@ -8,10 +8,18 @@
       <change afterPath="$PROJECT_DIR$/src/product.py" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/tests/conftest.py" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/tests/test_category_attribute.py" afterDir="false" />
+
+      <change afterPath="$PROJECT_DIR$/tests/test_product_attribute.py" afterDir="false" />
+
+
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/classes.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/category.py" afterDir="false" />
+
+      <change beforePath="$PROJECT_DIR$/tests/test_classess.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/test_classess.py" afterDir="false" />
+
+
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,7 +36,11 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
+
+        <entry key="$PROJECT_DIR$" value="develop_1" />
+
         <entry key="$PROJECT_DIR$" value="feature/home_work_2_2" />
+
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -45,7 +57,11 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "RunOnceActivity.ShowReadmeOnStart": "true",
+
+    "git-widget-placeholder": "feature/home__work__4"
+
     "git-widget-placeholder": "feature/home__work__3"
+
   }
 }]]></component>
   <component name="SharedIndexes">

@@ -40,4 +40,20 @@ class Category:
         quantity_list = []
         for product in self.__products:
             quantity_list.append(Product.quantity(product))
+
         return sum(quantity_list)
+
+
+    def middle_price(self):
+        mid_price = 0
+        prices = 0
+        try:
+            for product in self.__products:
+               prices += product.price
+            mid_price =  prices / len(self.__products)
+            return mid_price
+        except ZeroDivisionError:
+            return mid_price
+
+        return sum(quantity_list)
+
