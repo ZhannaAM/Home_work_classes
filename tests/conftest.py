@@ -22,8 +22,6 @@ def smartphone():
 
 
 
-
-
 @pytest.fixture
 def lawn_grass():
     return LawnGrass('Зеленая трава', 'Очень зеленая и сочная', 100, 10,

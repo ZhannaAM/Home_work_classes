@@ -1,5 +1,8 @@
 from src.category import Category
 
+
+
+
 from src.product import Product
 
 if __name__ == '__main__':
@@ -20,6 +23,9 @@ if __name__ == '__main__':
     print(category1.middle_price())
 
     category_empty = Category("Пустая категория", "Категория без продуктов", [])
+
+    print(category_empty.middle_price())
+
     print(category_empty.middle_price())
 
 from src.product import Smartphone, LawnGrass
@@ -104,4 +110,5 @@ if __name__ == '__main__':
         print("Возникла ошибка TypeError при добавлении не продукта")
     else:
         print("Не возникла ошибка TypeError при добавлении не продукта")
+
 
