@@ -17,18 +17,22 @@
       <change afterPath="$PROJECT_DIR$/htmlcov/z_145eef247bfb46b6___init___py.html" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/htmlcov/z_145eef247bfb46b6_category_py.html" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/htmlcov/z_145eef247bfb46b6_product_py.html" afterDir="false" />
+
       <change afterPath="$PROJECT_DIR$/src/category.py" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/product.py" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/tests/conftest.py" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/tests/test_category_attribute.py" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/tests/test_product_attribute.py" afterDir="false" />
+
       <change beforePath="$PROJECT_DIR$/ .gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/ .gitignore" afterDir="false" />
+
       <change beforePath="$PROJECT_DIR$/ README.md" beforeDir="false" afterPath="$PROJECT_DIR$/ README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/classes.py" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/tests/test_classess.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/test_classess.py" afterDir="false" />
+
 
       <change afterPath="$PROJECT_DIR$/src/product.py" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/tests/conftest.py" afterDir="false" />
@@ -43,6 +47,7 @@
       <change beforePath="$PROJECT_DIR$/src/classes.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/category.py" afterDir="false" />
 
       <change beforePath="$PROJECT_DIR$/tests/test_classess.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/test_classess.py" afterDir="false" />
+
 
 
 
@@ -62,6 +67,9 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
+
+        <entry key="$PROJECT_DIR$" value="feature/home_work_4_2" />
+
 
         <entry key="$PROJECT_DIR$" value="feature/home_work_4" />
 
@@ -88,12 +96,16 @@
   "keyToString": {
     "RunOnceActivity.ShowReadmeOnStart": "true",
 
+    "git-widget-placeholder": "feature/home__work__5"
+
+
     "git-widget-placeholder": "feature/home__work__4__2"
 
 
     "git-widget-placeholder": "feature/home__work__4"
 
     "git-widget-placeholder": "feature/home__work__3"
+
 
 
   }
@@ -114,6 +126,19 @@
       <option name="presentableId" value="Default" />
       <updated>1738059224206</updated>
     </task>
+    <task id="LOCAL-00001" summary="home_work_fix">
+      <option name="closed" value="true" />
+      <created>1739533432844</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1739533432844</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="home_work_fix" />
+    <option name="LAST_COMMIT_MESSAGE" value="home_work_fix" />
   </component>
 </project>

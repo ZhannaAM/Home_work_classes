@@ -1,8 +1,3 @@
-
-import pytest
-
-
-
 import pytest
 
 
@@ -13,7 +8,6 @@ from src.product import Product
 
 some_product = Product("corn", "vegetable", 100, 10)
 one_more_product = Product("Apple","fruit", 150 , 15)
-
 
 
 

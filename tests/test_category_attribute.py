@@ -13,6 +13,11 @@ category_0 = Category('nothing', 'category with 0 products', [])
 
 
 
+category_0 = Category('nothing', 'category with 0 products', [])
+
+
+
+
 
 def test_category_product():
     assert category_1.products ==  ['corn, 100 руб. Остаток: 10 шт.']
@@ -25,9 +30,6 @@ def test_category_add_product():
 
 def test_quantity_count():
 
-
-
-
     assert category_1.quantity_count() == 25
 
 
@@ -39,7 +41,11 @@ def test_middle_price_exception():
 
     assert category_0.middle_price() == 0
 
+
+    assert category_0.middle_price() == 0
+
     assert category_0.middle_price() == 0
 
     assert category_1.quantity_count() == 25
+
 

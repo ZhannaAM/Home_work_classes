@@ -1,7 +1,4 @@
 
-
-
-
 from abc import ABC, abstractmethod
 
 
@@ -21,7 +18,6 @@ class MixinParam:
 class Product(BaseProduct, MixinParam):
 
 
-
 class Product:
 
 
@@ -35,9 +31,6 @@ class Product:
         self.description = description
         self.__price = price
         self.quantity = quantity
-
-
-
 
         super().__init__()
         if quantity <= 0:
