@@ -1,3 +1,4 @@
+
 from abc import ABC, abstractmethod
 
 
@@ -15,6 +16,11 @@ class MixinParam:
 
 
 class Product(BaseProduct, MixinParam):
+
+
+class Product:
+
+
     name: str
     description: str
     price: float
@@ -25,6 +31,7 @@ class Product(BaseProduct, MixinParam):
         self.description = description
         self.__price = price
         self.quantity = quantity
+
         super().__init__()
         if quantity <= 0:
             raise ValueError('Товар с нулевым количеством не может быть добавлен')

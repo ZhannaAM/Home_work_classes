@@ -5,17 +5,52 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="db81726b-f416-4d95-a466-566586646c74" name="Changes" comment="">
+
+      <change afterPath="$PROJECT_DIR$/htmlcov/class_index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/htmlcov/coverage_html_cb_497bf287.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/htmlcov/favicon_32_cb_58284776.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/htmlcov/function_index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/htmlcov/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/htmlcov/keybd_closed_cb_ce680311.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/htmlcov/status.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/htmlcov/style_cb_718ce007.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/htmlcov/z_145eef247bfb46b6___init___py.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/htmlcov/z_145eef247bfb46b6_category_py.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/htmlcov/z_145eef247bfb46b6_product_py.html" afterDir="false" />
+
       <change afterPath="$PROJECT_DIR$/src/category.py" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/product.py" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/tests/conftest.py" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/tests/test_category_attribute.py" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/tests/test_product_attribute.py" afterDir="false" />
+
+      <change beforePath="$PROJECT_DIR$/ .gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/ .gitignore" afterDir="false" />
+
       <change beforePath="$PROJECT_DIR$/ README.md" beforeDir="false" afterPath="$PROJECT_DIR$/ README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/classes.py" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/tests/test_classess.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/test_classess.py" afterDir="false" />
+
+
+      <change afterPath="$PROJECT_DIR$/src/product.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/conftest.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/test_category_attribute.py" afterDir="false" />
+
+      <change afterPath="$PROJECT_DIR$/tests/test_product_attribute.py" afterDir="false" />
+
+
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/classes.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/category.py" afterDir="false" />
+
+      <change beforePath="$PROJECT_DIR$/tests/test_classess.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/test_classess.py" afterDir="false" />
+
+
+
+
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,7 +67,18 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
+
         <entry key="$PROJECT_DIR$" value="feature/home_work_4_2" />
+
+
+        <entry key="$PROJECT_DIR$" value="feature/home_work_4" />
+
+
+        <entry key="$PROJECT_DIR$" value="develop_1" />
+
+        <entry key="$PROJECT_DIR$" value="feature/home_work_2_2" />
+
+
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -49,7 +95,19 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "RunOnceActivity.ShowReadmeOnStart": "true",
+
     "git-widget-placeholder": "feature/home__work__5"
+
+
+    "git-widget-placeholder": "feature/home__work__4__2"
+
+
+    "git-widget-placeholder": "feature/home__work__4"
+
+    "git-widget-placeholder": "feature/home__work__3"
+
+
+
   }
 }]]></component>
   <component name="SharedIndexes">

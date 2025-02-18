@@ -21,6 +21,7 @@ def smartphone():
                       1, 150000, 'XS PRO MAX 10000', 256, 'Небесная синева')
 
 
+
 @pytest.fixture
 def lawn_grass():
     return LawnGrass('Зеленая трава', 'Очень зеленая и сочная', 100, 10,

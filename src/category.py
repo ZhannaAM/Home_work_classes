@@ -40,6 +40,7 @@ class Category:
         quantity_list = []
         for product in self.__products:
             quantity_list.append(Product.quantity(product))
+
         return sum(quantity_list)
 
 
@@ -52,4 +53,15 @@ class Category:
             mid_price =  prices / len(self.__products)
             return mid_price
         except ZeroDivisionError:
+
             return mid_price
+
+
+            return mid_price
+
+            return mid_price
+
+        return sum(quantity_list)
+
+
+
