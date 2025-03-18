@@ -2,49 +2,36 @@ from src.product import Product
 
 
 class Category:
-    name: str
-    description: str
-    products: list
+    def __init__(self, name: str, description: str, products: list):
+        self.name = name
+        self.description = description
+        self.__products = products if products else []
+        Category.category_count += 1
+        Category.product_count += len(self.__products)
+
     category_count = 0
     product_count = 0
 
-    def __init__(self, name, description, products):
-        self.name = name
-        self.description = description
-        self.__products = products
-        self.product_count += len(products)
-        Category.category_count += 1
-
     @property
     def products(self):
-        product_list = []
-        for product in self.__products:
-            product_list.append(Product.__str__(product))
-        return product_list
+        return self.__products
 
-    def add_product(self, product):
-        if isinstance(product, Product) is True:
-            self.__products.append(product)
-            self.product_count = len(self.__products)
-            return self.__products
+    def add_product(self, new_product: Product):
+        if isinstance(new_product, Product):
+            self.__products.append(new_product)
+            Category.product_count += 1
         else:
             raise TypeError
 
+    @property
+    def product_list(self):
+        product_str = ""
+        for product in self.products:
+            product_str += f"{product.name}, {product.price} руб. Остаток: {product.quantity} шт.\n"
+        return product_str
+
     def __str__(self):
-        return f"{self.name}, количество продуктов: {self.quantity_count()}"
-
-    def quantity_count(self):
-        quantity_list = []
+        counter = 0
         for product in self.__products:
-            quantity_list.append(Product.quantity(product))
-        return sum(quantity_list)
-
-    def middle_price(self):
-        prices = 0
-        try:
-            for product in self.__products:
-                prices += product.price
-            mid_price = prices / len(self.__products)
-            return mid_price
-        except ZeroDivisionError:
-            return 0
+            counter += product.quantity
+        return f"{self.name}, {counter} шт.\n"

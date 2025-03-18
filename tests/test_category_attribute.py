@@ -1,31 +1,39 @@
 from src.category import Category
 from src.product import Product
-from tests.test_product_attribute import some_product
 
-category_1 = Category("fruits", "fruits from India", [some_product])
-new_product = Product("Apple", "fruit", 150, 15)
-category_0 = Category("nothing", "category with 0 products", [])
-
-
-def test_category_product():
-    assert category_1.products == ["corn, 100 руб. Остаток: 10 шт."]
-
-
-def test_category_add_product():
-    category_1.add_product(new_product)
-    assert category_1.products == [
-        "corn, 100 руб. Остаток: 10 шт.",
-        "Apple, 150 руб. Остаток: 15 шт.",
-    ]
+new_product = Product.new_product(
+    {
+        "name": "Samsung Galaxy S23 Ultra",
+        "description": "256GB, Серый цвет, 200MP камера",
+        "price": 180000.0,
+        "quantity": 5,
+    }
+)
 
 
-def test_quantity_count():
-    assert category_1.quantity_count() == 25
+def test_category_tv(category_tv, product_4):
+    assert category_tv.name == "Телевизоры"
+    assert (
+        category_tv.description
+        == "Современный телевизор, который позволяет наслаждаться просмотром, станет вашим другом и помощником"
+    )
+    assert category_tv.products == [product_4]
 
 
-def test_middle_price():
-    assert category_1.middle_price() == 125
+def test_category_smart(category_smart, product_1, product_2, product_3):
+    assert category_smart.name == "Смартфоны"
+    assert (
+        category_smart.description
+        == "Смартфоны, как средство не только коммуникации, но и получения дополнительных функций для удобства жизни"
+    )
+    assert category_smart.products == [product_1, product_2, product_3]
 
 
-def test_middle_price_exception():
-    assert category_0.middle_price() == 0
+def test_category(category_smart, product_4):
+    category_smart.add_product(product_4)
+    category_smart.add_product(new_product)
+    assert Category.product_count == 9
+
+
+def test_sum_counter(sum_counter):
+    assert sum_counter == "Смартфоны, 27 шт."
